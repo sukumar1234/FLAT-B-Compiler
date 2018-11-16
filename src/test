@@ -1,0 +1,29 @@
+declblock{
+	int b,i;
+	int ar[1000];
+}
+codeblock{
+	b = 3;
+	ar[1]=2;
+	print "hlo";
+	println b;
+	i=0;
+	read b,ar[2];
+L1 :	if(i==0){
+		print "nppp";
+	}
+	for b = 0,4 {
+		println ar[1];
+	}
+	i=i+1;
+	println "lol";
+	while(b<8){
+		println b;
+		b=b+1;
+	}
+	goto L1 if(i<2);
+	print b;
+L2:	read ar[100];
+	println ar[100];
+		
+}
