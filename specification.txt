@@ -1,4 +1,4 @@
-1. Data Types
+ Data Types
 
 Inegers and Array of Integers.
 
